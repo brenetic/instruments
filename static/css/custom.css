@@ -1,0 +1,53 @@
+.BreneticLogo {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 93px;
+  width: 125px;
+  margin-bottom: 40px;
+}
+
+.CircleSmall {
+  height: 30px;
+  width: 30px;
+  background-color: #000;
+  margin-bottom: 3px;
+}
+.CircleLarge {
+  height: 60px;
+  width: 60px;
+  background-color: #000;
+}
+
+.topleft {
+  float: left;
+  margin-left: 30px;
+  background-color: #000;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.topright {
+  margin-left: 65px;
+  background-color: #000;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.bottomleft {
+  float: left;
+  background-color: #000;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.bottomright {
+  margin-left: 65px;
+  background-color: #000;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}

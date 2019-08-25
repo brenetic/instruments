@@ -1,0 +1,19 @@
+<div id="sidebar" class="col-xs-4 col-sm-3 col-md-2 sidebar-offcanvas">
+  <div class="BreneticLogo">
+    <div class="CircleSmall topleft"></div>
+    <div class="CircleSmall topright"></div>
+    <div class="CircleLarge bottomleft"></div>
+    <div class="CircleLarge bottomright"></div>
+  </div>
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+    <div class="copyright">
+      <p class="credit">
+        {{ with .Site.Params.copyright }}
+          {{ . | safeHTML }}
+        {{ end }}
+      </p>
+      {{ partial "attribution.html" . }}
+    </div>
+  </div>
+</div>

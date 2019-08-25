@@ -1,7 +1,7 @@
 title = "brenetic instruments"
 baseURL = "https://instruments.brenetic.com"
 languageCode = "en-gb"
-theme = "ananke"
+theme = "creative-portfolio"
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
@@ -16,17 +16,31 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
-  favicon = ""
-  description = ""
-  facebook = ""
-  twitter = ""
-  instagram = ""
-  youtube = ""
-  github = ""
-  gitlab = ""
-  linkedin = ""
-  mastodon = ""
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-near-black"
-  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
-  recent_posts_number = 2
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "sea"
+  description = "home site for brenetic instruments"
+  copyright = "&copy; 2019 brenetic instruments"
+  sidebarAbout = [""]
+
+  # Nav links in the side bar
+  [[params.navlinks]]
+  name = "Home"
+  url = "completed/"
+  home = true
+
+  [[params.navlinks]]
+  name = "About"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "Get in touch"
+  url = "contact/"
+
+  [params.social]
+  facebook      = "full page or profile url in facebook"
+  email         = "email@example.com"
+  twitter       = "full profile url in twitter"
+  instagram     = "full profile url in instagram"
+  youtube       = "full profile url in youtube"
+  whatsapp      = "wa.me service link"
